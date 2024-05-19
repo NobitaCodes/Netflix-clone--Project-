@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 900,
+    'GRAD' 0,
+    'opsz' 24
+}
+/*Imported Fonts and Icons used in the project*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+footer {
+    background-color: black;
+}
+
+.toppanel {
+    height:92vh;   
+    width: 100%;
+    background-image: url(/assets/images/bgimage.jpg);
+    position: relative;
+    background-position: center center;
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.effect-box {
+    position: absolute;
+    height: 92vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.72;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    max-width: 75vw;
+    margin: auto;
+    padding: 29px 0px;
+}
+
+
+.nav img {
+    position: relative;
+    z-index: 10;
+}
+
+.nav button {
+    position: relative;
+    z-index: 20;
+    color: white;
+}
+
+.box2 {
+    padding: 0px 20px;
+    height: 81.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    position: relative;
+    gap: 10px;
+}
+
+.box2> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.box2> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.box2> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.separation {
+    height: 7px;
+    width: 100vw;
+    background-color: rgb(46, 44, 44);
+    position: absolute;
+    z-index: 20;
+}
+
+/*FONT CLASSES*/
+.font {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+}
+
+.martel-sans-extrabold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*FONT CLASSES*/
+
+.redbutton {
+    background-color: #e50914;
+    border-radius: 6px;
+    color: white;
+    padding: 8.5px 50px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.redbuttonsm {
+    font-size: 15px;
+    background-color: #e50914;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 20px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.redbutton:hover,
+.redbuttonsm:hover {
+    background-color: #ac0912;
+    transition: all 0.2s ease 0s;
+}
+
+.button {
+    text-align: center;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    padding: 18px 90px 17px 90px;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+
+.buttonsm {
+    font-size: 17px;
+    background-color: rgba(128, 128, 128, 0.16);
+    opacity: 0.69;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 40px;
+
+}
+
+.first {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    gap: 25px;
+}
+
+.text1> :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text1> :nth-child(2) {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.imgvideo1,
+.imgvideo3 {
+    position: relative;
+}
+
+.imgvideo1 img {
+    width: 570px;
+    position: relative;
+    z-index: 10;
+}
+
+.imgvideo1 video {
+    width: 420px;
+    position: absolute;
+    right: 76px;
+    top: 83px;
+}
+
+
+.imgvideo3 video {
+    width: 420px;
+    position: absolute;
+    right: 117px;
+    top: 37px;
+}
+
+.imgvideo3 img {
+    position: relative;
+    z-index: 10;
+}
+
+.faq {
+    height: 65vw;
+}
+
+.faq>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq>div h1 {
+    font-size: 49px;
+    color: white;
+    text-align: center;
+    padding: 64px 0px 7px 0px;
+}
+
+.faqbox {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.ques {
+    height: 13.5vh;
+    width: 74vw;
+    margin: auto;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2px 19px;
+}
+
+.ques:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+    background-color: #414141;
+}
+
+.ques i:hover {
+    cursor: pointer;
+    animation: roatatror 2s 1 ease-in-out;
+}
+
+.ques span {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.ques i {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 49px 0px 42px 0;
+    text-align: center;
+}
+
+.members>span {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    color: white;
+    max-width: 75vw;
+    margin: auto;
+    padding: 50px;
+    gap: 20px;
+}
+
+.questions {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 54px 0 29px 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.footer a,
+.netflix {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.netflix {
+    padding: 30px 0;
+}
+
+.buttonfoot {
+    font-size: 17px;
+    background-color: rgba(128, 128, 128, 0.16);
+    opacity: 0.69;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 40px;
+
+}
+
+.footb {
+    padding: 47px 0 4px 0;
+}
+
+
+
